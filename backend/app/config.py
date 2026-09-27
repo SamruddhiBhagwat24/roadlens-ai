@@ -18,7 +18,7 @@ try:
 
         # CORS
         allowed_origins_raw: str = Field(
-            default="http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000",
+            default="http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000,https://roadlens-ai-tau.vercel.app",
             alias="ALLOWED_ORIGINS",
         )
 
@@ -74,7 +74,7 @@ except ImportError:
             self.log_level = os.getenv("LOG_LEVEL", "INFO")
             self.allowed_origins_raw = os.getenv(
                 "ALLOWED_ORIGINS",
-                "http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000",
+                "http://localhost:5173,http://127.0.0.1:5173,http://localhost:3000,https://roadlens-ai-tau.vercel.app",
             )
             self.max_upload_size_mb = int(os.getenv("MAX_UPLOAD_SIZE_MB", "15"))
             self.allowed_extensions_raw = os.getenv(
