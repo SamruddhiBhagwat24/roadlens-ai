@@ -1,0 +1,223 @@
+image_id,ground_truth,original_ocr,normalized_ocr,constrained_prediction,confidence,changed,exact_match_before,exact_match_after,normalized_match_before,normalized_match_after,is_ambiguous,correction_reason
+0b86cecf-67d1-4fc0-87c9-b36b0ee228bb,YG9X2G,YG9-X2G,YG9X2G,YG9X2G,0.6498,False,False,True,True,True,True,state_format_unknown
+12c6cb72-3ea3-49e7-b381-e0cdfc5e8960,0SG719,056*719,056719,056719,0.3445,False,False,False,False,False,True,state_format_unknown
+1e241dc8-8f18-4955-8988-03a0ab49f813,CCLVN3,CcLV <,CCLV,CCLV,0.1062,False,False,False,False,False,True,state_format_unknown
+21d8c31d-3deb-494b-9c63-c0223306fd82,2DA044,@daco44,DACO44,DACO44,0.2558,False,False,False,False,False,True,state_format_unknown
+22e54a62-57a8-4a0a-88c1-4b9758f67651,SL7C6S,5L7 CGs,5L7CGS,5L7CGS,0.5147,False,False,False,False,False,True,state_format_unknown
+316b64c0-55bf-4079-a1c0-d93f461a576f,K179658,K1z 9658,K1Z9658,K1Z9658,0.8006,False,False,False,False,False,True,state_format_unknown
+33fa5185-0286-4e8f-b775-46162eba39d4,R820503,ReZ  0503,REZ0503,REZ0503,0.4368,False,False,False,False,False,True,state_format_unknown
+37170dd1-2802-4e38-b982-c5d07c64ff67,6HP995,GHp 995,GHP995,GHP995,0.3668,False,False,False,False,False,True,state_format_unknown
+3850ba91-3c64-4c64-acba-0c46b61ec0da,HK0E7C,HKonezo,HKONEZO,HKONEZO,0.085,False,False,False,False,False,True,state_format_unknown
+4be2025c-09f7-4bb0-b1bd-8e8633e6dec1,UF2V5S,(F24V55,F24V55,F24V55,0.4156,False,False,False,False,False,True,state_format_unknown
+5b562a61-34ad-4f00-9164-d34abb7a38e4,91A4ZA,9ia 4ZA,9IA4ZA,9IA4ZA,0.1341,False,False,False,False,False,True,state_format_unknown
+7fbfbe28-aecb-45be-bd05-7cf26acb3c5c,KC4Z3X,,,,0.0,False,False,False,False,False,True,state_format_unknown
+a03ced3f-5a97-4e75-8106-fabfd2b8b76e,08E6CK,OBE6CK,OBE6CK,OBE6CK,0.314,False,False,False,False,False,True,state_format_unknown
+c9368c55-210d-456c-a5ef-c310e60039ec,UH1F0F,VhLeoe,VHLEOE,VHLEOE,0.032,False,False,False,False,False,True,state_format_unknown
+car1,627WWI,WashmGot 627,WASHMGOT627,WASHMGOT627,0.2247,False,False,False,False,False,True,state_format_unknown
+car11,DG3C8P,dg3 C8p,DG3C8P,DG3C8P,0.1265,False,False,True,True,True,True,state_format_unknown
+car12,5UVR090,SEP Kolma SUVRO9O] WalM Jcwaani,SEPKOLMASUVRO9OWALMJCWAANI,SEPKOLMASUVRO9OWALMJCWAANI,0.2622,False,False,False,False,False,True,state_format_unknown
+car13,EMR7094,EMR 7094 26,EMR709426,EMR709426,0.7153,False,False,False,False,False,True,state_format_unknown
+car14,980YTB,90_YTB,90YTB,90YTB,0.2743,False,False,False,False,False,True,state_format_unknown
+car15,KCS1M,KcSIA,KCSIA,KCSIA,0.2838,False,False,False,False,False,True,state_format_unknown
+car16,002HHM,ddzehhH,DDZEHHH,DDZEHHH,0.271,False,False,False,False,False,True,state_format_unknown
+car17,L781601,Eeim,EEIM,EEIM,0.0139,False,False,False,False,False,True,state_format_unknown
+car18,SB3X6N,ISB3XBN,ISB3XBN,ISB3XBN,0.1981,False,False,False,False,False,True,state_format_unknown
+car19,378DXR,378 DXRI LAMBORGHIN,378DXRILAMBORGHIN,378DXRILAMBORGHIN,0.7899,False,False,False,False,False,True,state_format_unknown
+car2,1049338,1049338,1049338,1049338,0.9998,False,True,True,True,True,True,state_format_unknown
+car20,YG8E4F,YG8 E 4F],YG8E4F,YG8E4F,0.2962,False,False,True,True,True,True,state_format_unknown
+car21,YF2L6G,V2l6o,V2L6O,V2L6O,0.0394,False,False,False,False,False,True,state_format_unknown
+car22,CH0P8Y,,,,0.0,False,False,False,False,False,True,state_format_unknown
+car3,1AMW240,MNzaU,MNZAU,MNZAU,0.0792,False,False,False,False,False,True,state_format_unknown
+car5,59CADI,59.CAdi ccllcC,59CADICCLLCC,59CADICCLLCC,0.1979,False,False,False,False,False,True,state_format_unknown
+car6,AKS4329,JKS.4329,JKS4329,JKS4329,0.2798,False,False,False,False,False,True,state_format_unknown
+car7,10DTM,Newlersey 8n) 10 DT Msg Vehicle KeR _,NEWLERSEY8N10DTMSGVEHICLEKER,NEWLERSEY8N10DTMSGVEHICLEKER,0.3299,False,False,False,False,False,True,state_format_unknown
+car8,FZRULZ,FZ_RULZ,FZRULZ,FZRULZ,0.7312,False,False,True,True,True,True,state_format_unknown
+car9-0,133GZD,ARIZON p123620,ARIZONP123620,ARIZONP123620,0.613,False,False,False,False,False,True,state_format_unknown
+car9-1,ASC7399,VASC7399,VASC7399,VASC7399,0.2608,False,False,False,False,False,True,state_format_unknown
+car9-2,4639520,[663 9520,6639520,6639520,0.2744,False,False,False,False,False,True,state_format_unknown
+car9-4,ANW2529,Ji2529,JI2529,JI2529,0.1061,False,False,False,False,False,True,state_format_unknown
+car9-5,AYX8803,KhayKbbO3],KHAYKBBO3,KHAYKBBO3,0.0175,False,False,False,False,False,True,state_format_unknown
+car9-7,ASV9218,68su9218,68SU9218,68SU9218,0.0682,False,False,False,False,False,True,state_format_unknown
+car9-9,AVP2403,MAUP24O3,MAUP24O3,MAUP24O3,0.4962,False,False,False,False,False,True,state_format_unknown
+car9,PE3R2X,PEZAR2X,PEZAR2X,PEZAR2X,0.1306,False,False,False,False,False,True,state_format_unknown
+cfaa9dd2-a388-4e92-bb3a-ae65c28d8139,KL3B8K,Fl3 Bak,FL3BAK,FL3BAK,0.1099,False,False,False,False,False,True,state_format_unknown
+d4f79480-366a-40b6-ab2c-328bcba705b2,FB5X8T,FBS XeT,FBSXET,FBSXET,0.3331,False,False,False,False,False,True,state_format_unknown
+e73fd200-7ba4-4725-9d1d-2ec710864df6,8FV480,8FV-480,8FV480,8FV480,0.8656,False,False,True,True,True,True,state_format_unknown
+f0a3b8c0-198a-471b-9ca9-345c3dd28073,HB8X9J,HBB X9 ],HBBX9,HBBX9,0.1662,False,False,False,False,False,True,state_format_unknown
+f8fc5e59-9083-466b-ae3f-6b869a0b257b,UH1F0F,VhLToE,VHLTOE,VHLTOE,0.0118,False,False,False,False,False,True,state_format_unknown
+us1,4PCI264,LPCIZGL,LPCIZGL,LPCIZGL,0.9173,False,False,False,False,False,True,state_format_unknown
+us10,CC2881,WASHINGTON; DC CC= 2881 TAXATION WIthout REPRESENTATION,DCCC2881TAXATIONWITHOUTREPRESENTATION,CC2881,0.6838,True,False,True,False,True,False,state_format_matched_WASHINGTON_LLDDDD_penalty_0
+us2,EUS664,EUSm664,EUSM664,EUSM664,0.4255,False,False,False,False,False,True,state_format_unknown
+us3,9185914,918 5914,9185914,9185914,0.2367,False,False,True,True,True,True,state_format_unknown
+us4,520MRK,~Akansas 520 MRK Ihc MIuraI State,A520MRKIHCMIURAISTATE,A520MRKIHCMIURAISTATE,0.6523,False,False,False,False,False,True,state_format_unknown
+us5,NEILDMND,NETLDMND ~MMANLUAMO; DTAN,NETLDMNDMMANLUAMODTAN,NETLDMNDMMANLUAMODTAN,0.1436,False,False,False,False,False,True,state_format_unknown
+us6,HL0KTY1,HLO KTY1,HLOKTY1,HLOKTY1,0.3576,False,False,False,False,False,True,state_format_unknown
+us7,5VCF203,JUK 'boJAno SVCF203,JUKBOJANOSVCF203,JUKBOJANOSVCF203,0.3654,False,False,False,False,False,True,state_format_unknown
+us8,EAZ6913,NEW YORK EAZ-6913 THE EMPIRE STATE,EAZ6913THEEMPIRESTATE,EAZ6913,0.7766,True,False,True,False,True,False,state_format_matched_NEW YORK_LLLDDDD_penalty_0
+wts-lg-000010,HH9G5W,HH? G5w,HHG5W,HHG5W,0.2297,False,False,False,False,False,True,state_format_unknown
+wts-lg-000011,MF2Y8X,'V8X MFz,V8XMFZ,V8XMFZ,0.3387,False,False,False,False,False,True,state_format_unknown
+wts-lg-000012,CK0A1F,V <,V,V,0.1048,False,False,False,False,False,True,state_format_unknown
+wts-lg-000013,DH5X9P,DUS_XoP,DUSXOP,DUSXOP,0.1822,False,False,False,False,False,True,state_format_unknown
+wts-lg-000014,DG2Z6U,3C2 TEU,3C2TEU,3C2TEU,0.0754,False,False,False,False,False,True,state_format_unknown
+wts-lg-000016,DL3C2Z,DLbeC2Z,DLBEC2Z,DLBEC2Z,0.2126,False,False,False,False,False,True,state_format_unknown
+wts-lg-000017,7FR971,7FR-971,7FR971,7FR971,0.5356,False,False,True,True,True,True,state_format_unknown
+wts-lg-000018,CG2H2U,^ ^,,,0.0214,False,False,False,False,False,True,state_format_unknown
+wts-lg-000020,R107555,R1 7555,R17555,R17555,0.3519,False,False,False,False,False,True,state_format_unknown
+wts-lg-000021,BGB3282,BCB-3282,BCB3282,BCB3282,0.837,False,False,False,False,False,True,state_format_unknown
+wts-lg-000022,FNY881,Fiyeee1,FIYEEE1,FIYEEE1,0.1004,False,False,False,False,False,True,state_format_unknown
+wts-lg-000023,AU41257,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000024,P602849,IpGh 'ZFL9|,IPGHZFL9,IPGHZFL9,0.1661,False,False,False,False,False,True,state_format_unknown
+wts-lg-000025,TZC207,IZC 207,IZC207,IZC207,0.5674,False,False,False,False,False,True,state_format_unknown
+wts-lg-000026,ML0C2S,1C29,1C29,1C29,0.2614,False,False,False,False,False,True,state_format_unknown
+wts-lg-000027,SG8L7E,SG8 ZE,SG8ZE,SG8ZE,0.3965,False,False,False,False,False,True,state_format_unknown
+wts-lg-000028,SK2W6K,SkK2 Wek,SKK2WEK,SKK2WEK,0.2805,False,False,False,False,False,True,state_format_unknown
+wts-lg-000029,AYE132,Faye: 132,FAYE132,FAYE132,0.2173,False,False,False,False,False,True,state_format_unknown
+wts-lg-000030,FK2X2Z,TK2kzz,TK2KZZ,TK2KZZ,0.0498,False,False,False,False,False,True,state_format_unknown
+wts-lg-000031,FE9N6K,FE9-NGK,FE9NGK,FE9NGK,0.4388,False,False,False,False,False,True,state_format_unknown
+wts-lg-000032,21A1BX,2inIBX,2INIBX,2INIBX,0.2585,False,False,False,False,False,True,state_format_unknown
+wts-lg-000033,PK2V6M,Pk2 Vei,PK2VEI,PK2VEI,0.1219,False,False,False,False,False,True,state_format_unknown
+wts-lg-000034,HK5R9C,Hks-R9C,HKSR9C,HKSR9C,0.364,False,False,False,False,False,True,state_format_unknown
+wts-lg-000035,XNR374,XNR,XNR,XNR,0.3668,False,False,False,False,False,True,state_format_unknown
+wts-lg-000036,TTP488,TTP_488,TTP488,TTP488,0.5071,False,False,True,True,True,True,state_format_unknown
+wts-lg-000037,RDN464,RDN  464,RDN464,RDN464,0.3806,False,False,True,True,True,True,state_format_unknown
+wts-lg-000038,78188,'7e180_,7E180,7E180,0.2236,False,False,False,False,False,True,state_format_unknown
+wts-lg-000039,VLX039,X039,X039,X039,0.6597,False,False,False,False,False,True,state_format_unknown
+wts-lg-000040,WD2R9B,MD2-R9B,MD2R9B,MD2R9B,0.2928,False,False,False,False,False,True,state_format_unknown
+wts-lg-000041,5LTA600,5L JI4LI,5LJI4LI,5LJI4LI,0.0217,False,False,False,False,False,True,state_format_unknown
+wts-lg-000042,SK5K9V,Sv,SV,SV,0.0687,False,False,False,False,False,True,state_format_unknown
+wts-lg-000043,FB8R4T,FBOGRAT,FBOGRAT,FBOGRAT,0.1663,False,False,False,False,False,True,state_format_unknown
+wts-lg-000044,AJK7551,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000045,HF4Y3B,IHFFA YSBL,IHFFAYSBL,IHFFAYSBL,0.1991,False,False,False,False,False,True,state_format_unknown
+wts-lg-000046,BFN8484,HFM 8484,HFM8484,HFM8484,0.3715,False,False,False,False,False,True,state_format_unknown
+wts-lg-000047,CLT0108,CLT Diog,CLTDIOG,CLTDIOG,0.2197,False,False,False,False,False,True,state_format_unknown
+wts-lg-000048,FE5R2D,FFE5 R2D,FFE5R2D,FFE5R2D,0.149,False,False,False,False,False,True,state_format_unknown
+wts-lg-000049,WG4L2M,NGa 124,NGA124,NGA124,0.1117,False,False,False,False,False,True,state_format_unknown
+wts-lg-000050,HB6L0Z,HB6 Loz,HB6LOZ,HB6LOZ,0.404,False,False,False,False,False,True,state_format_unknown
+wts-lg-000051,PJ2X1V,PJZeXiV,PJZEXIV,PJZEXIV,0.2888,False,False,False,False,False,True,state_format_unknown
+wts-lg-000052,DK7J8G,pK7-JbG,PK7JBG,PK7JBG,0.2319,False,False,False,False,False,True,state_format_unknown
+wts-lg-000053,TNP222,222,222,222,0.9923,False,False,False,False,False,True,state_format_unknown
+wts-lg-000055,TRZ951,Taz 95i],TAZ95I,TAZ95I,0.1248,False,False,False,False,False,True,state_format_unknown
+wts-lg-000056,SZA679,SZA_6791,SZA6791,SZA6791,0.3279,False,False,False,False,False,True,state_format_unknown
+wts-lg-000057,YBW23,YBIZJ,YBIZJ,YBIZJ,0.4464,False,False,False,False,False,True,state_format_unknown
+wts-lg-000058,CEMENT0,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000059,WXW835,IWXW 8351,IWXW8351,IWXW8351,0.1716,False,False,False,False,False,True,state_format_unknown
+wts-lg-000060,TVG399,IVG 399,IVG399,IVG399,0.2349,False,False,False,False,False,True,state_format_unknown
+wts-lg-000061,DK2Z5S,@K2oz5s,K2OZ5S,K2OZ5S,0.104,False,False,False,False,False,True,state_format_unknown
+wts-lg-000062,GT679A,~616794,616794,616794,0.1313,False,False,False,False,False,True,state_format_unknown
+wts-lg-000063,FA8M7S,Ea? M7S,EAM7S,EAM7S,0.1149,False,False,False,False,False,True,state_format_unknown
+wts-lg-000064,UH1N2A,VHichza,VHICHZA,VHICHZA,0.2445,False,False,False,False,False,True,state_format_unknown
+wts-lg-000065,AC0M7V,ACOMHTV,ACOMHTV,ACOMHTV,0.456,False,False,False,False,False,True,state_format_unknown
+wts-lg-000066,SGTE5,SGT-E5,SGTE5,SGTE5,0.2449,False,False,True,True,True,True,state_format_unknown
+wts-lg-000067,8951283,8951203,8951203,8951203,0.4101,False,False,False,False,False,True,state_format_unknown
+wts-lg-000068,N359973,[352573,352573,352573,0.1564,False,False,False,False,False,True,state_format_unknown
+wts-lg-000069,TWF220,thF  2203,THF2203,THF2203,0.1052,False,False,False,False,False,True,state_format_unknown
+wts-lg-000070,WXY184,WXY 184,WXY184,WXY184,0.6421,False,False,True,True,True,True,state_format_unknown
+wts-lg-000071,WSG979,VS6979,VS6979,VS6979,0.2674,False,False,False,False,False,True,state_format_unknown
+wts-lg-000072,WTC249,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000073,5VDA555,svda555,SVDA555,SVDA555,0.4301,False,False,False,False,False,True,state_format_unknown
+wts-lg-000074,AG6V1W,ag6-V LW,AG6VLW,AG6VLW,0.125,False,False,False,False,False,True,state_format_unknown
+wts-lg-000075,6LKR481,GLKRL8L,GLKRL8L,GLKRL8L,0.2937,False,False,False,False,False,True,state_format_unknown
+wts-lg-000076,4GLS168,LGLS169],LGLS169,LGLS169,0.2258,False,False,False,False,False,True,state_format_unknown
+wts-lg-000077,5ZUC921,15Z4c921,15Z4C921,15Z4C921,0.1983,False,False,False,False,False,True,state_format_unknown
+wts-lg-000078,5EZP631,SEZP631,SEZP631,SEZP631,0.6183,False,False,False,False,False,True,state_format_unknown
+wts-lg-000079,FD7U4U,04U,04U,04U,0.4901,False,False,False,False,False,True,state_format_unknown
+wts-lg-000080,YD6L3C,Vd6 L3C,VD6L3C,VD6L3C,0.2945,False,False,False,False,False,True,state_format_unknown
+wts-lg-000082,CJUJ79,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000083,N2427E,N24 27E,N2427E,N2427E,0.9394,False,False,True,True,True,True,state_format_unknown
+wts-lg-000084,5AEA911,SHEA?11,SHEA11,SHEA11,0.3208,False,False,False,False,False,True,state_format_unknown
+wts-lg-000085,5DJ0529,BDu0529,BDU0529,BDU0529,0.1619,False,False,False,False,False,True,state_format_unknown
+wts-lg-000086,ATGL04,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000087,383WJP,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000088,CCV020,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000089,YF2U68,ye24u68,YE24U68,YE24U68,0.2247,False,False,False,False,False,True,state_format_unknown
+wts-lg-000090,MH6V4L,HHG,HHG,HHG,0.2499,False,False,False,False,False,True,state_format_unknown
+wts-lg-000091,MJ3R1V,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000094,CJ8P4V,JbPAV,JBPAV,JBPAV,0.1454,False,False,False,False,False,True,state_format_unknown
+wts-lg-000095,4FCW533,Lecl531,LECL531,LECL531,0.0368,False,False,False,False,False,True,state_format_unknown
+wts-lg-000096,CJ1P5G,LJgpsq,LJGPSQ,LJGPSQ,0.0981,False,False,False,False,False,True,state_format_unknown
+wts-lg-000097,R589789,P5b  97891,P5B97891,P5B97891,0.0893,False,False,False,False,False,True,state_format_unknown
+wts-lg-000098,UG9L8U,jug9 Leu,JUG9LEU,JUG9LEU,0.1575,False,False,False,False,False,True,state_format_unknown
+wts-lg-000099,UG9L8U,JG9 Leu,JG9LEU,JG9LEU,0.6298,False,False,False,False,False,True,state_format_unknown
+wts-lg-000100,SH0R7X,SholRZX,SHOLRZX,SHOLRZX,0.3222,False,False,False,False,False,True,state_format_unknown
+wts-lg-000101,SH0R7X,Sr RZXE,SRRZXE,SRRZXE,0.3619,False,False,False,False,False,True,state_format_unknown
+wts-lg-000102,DL9E1U,DL9 ELU,DL9ELU,DL9ELU,0.8155,False,False,False,False,False,True,state_format_unknown
+wts-lg-000106,3MVV252,BMVV252,BMVV252,BMVV252,0.2774,False,False,False,False,False,True,state_format_unknown
+wts-lg-000113,AG4V3U,:.,,,0.0047,False,False,False,False,False,True,state_format_unknown
+wts-lg-000115,HH9G5W,HHS SSW,HHSSSW,HHSSSW,0.5076,False,False,False,False,False,True,state_format_unknown
+wts-lg-000117,D315771,021'57,02157,02157,0.1423,False,False,False,False,False,True,state_format_unknown
+wts-lg-000118,853FL,17853FL,17853FL,17853FL,0.1552,False,False,False,False,False,True,state_format_unknown
+wts-lg-000119,6RJN062,GRINO62,GRINO62,GRINO62,0.2463,False,False,False,False,False,True,state_format_unknown
+wts-lg-000120,5CJP303,SCJP303,SCJP303,SCJP303,0.8408,False,False,False,False,False,True,state_format_unknown
+wts-lg-000121,6MMD595,GKhd595,GKHD595,GKHD595,0.1686,False,False,False,False,False,True,state_format_unknown
+wts-lg-000122,DK0H7Z,Jdko H7Z,JDKOH7Z,JDKOH7Z,0.2742,False,False,False,False,False,True,state_format_unknown
+wts-lg-000123,6XIU641,GXiu641,GXIU641,GXIU641,0.2429,False,False,False,False,False,True,state_format_unknown
+wts-lg-000124,5NCP692,SNCP692,SNCP692,SNCP692,0.7457,False,False,False,False,False,True,state_format_unknown
+wts-lg-000125,5TQY867,5ToY867,5TOY867,5TOY867,0.4465,False,False,False,False,False,True,state_format_unknown
+wts-lg-000126,6NZT067,GNZT0g7,GNZT0G7,GNZT0G7,0.2572,False,False,False,False,False,True,state_format_unknown
+wts-lg-000127,5AZL613,5AZL613 |,5AZL613,5AZL613,0.5416,False,False,True,True,True,True,state_format_unknown
+wts-lg-000128,6MMD595,GMMd595,GMMD595,GMMD595,0.1831,False,False,False,False,False,True,state_format_unknown
+wts-lg-000129,CRK4732,TEXAS CRK-4732,CRK4732,CRK4732,0.8361,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000130,6PGM335,Lepgm335|,LEPGM335,LEPGM335,0.1998,False,False,False,False,False,True,state_format_unknown
+wts-lg-000131,00256M1,00256h1,00256H1,00256H1,0.3224,False,False,False,False,False,True,state_format_unknown
+wts-lg-000132,7AHN739,QAHN739,QAHN739,QAHN739,0.4693,False,False,False,False,False,True,state_format_unknown
+wts-lg-000133,5L0D951,6L.0d9511,6L0D9511,6L0D9511,0.2162,False,False,False,False,False,True,state_format_unknown
+wts-lg-000134,6WAW786,RGwaw786),RGWAW786,RGWAW786,0.0761,False,False,False,False,False,True,state_format_unknown
+wts-lg-000135,CWM3083,TEAS (CYH;30837,TEASCYH30837,TEASCYH30837,0.3286,False,False,False,False,False,True,state_format_unknown
+wts-lg-000136,CYZ5139,TEXAS CYZ-5139 DGaleA SALES,CYZ5139DGALEASALES,CYZ5139,0.6689,True,False,True,False,True,False,state_format_matched_TEXAS_LLLDDDD_penalty_0
+wts-lg-000137,CWW2245,TEXAS CHH-2245,CHH2245,CHH2245,0.7262,False,False,False,False,False,False,already_matched_TEXAS
+wts-lg-000138,DD4C591,LiS DD4-C591,LISDD4C591,LISDD4C591,0.2869,False,False,False,False,False,True,state_format_unknown
+wts-lg-000139,1268205,612.68205],61268205,61268205,0.5045,False,False,False,False,False,True,state_format_unknown
+wts-lg-000140,6MDU097,GHDU0?7,GHDU07,GHDU07,0.594,False,False,False,False,False,True,state_format_unknown
+wts-lg-000141,1365847,1365847,1365847,1365847,0.974,False,True,True,True,True,True,state_format_unknown
+wts-lg-000142,5TGN556,Ftgn556,FTGN556,FTGN556,0.1764,False,False,False,False,False,True,state_format_unknown
+wts-lg-000143,3127K,13127K9,13127K9,13127K9,0.2938,False,False,False,False,False,True,state_format_unknown
+wts-lg-000144,CWW2245,TEXAS CHU-2245,CHU2245,CHU2245,0.5862,False,False,False,False,False,False,already_matched_TEXAS
+wts-lg-000145,4KBZ265,LKBZ2 65,LKBZ265,LKBZ265,0.5239,False,False,False,False,False,True,state_format_unknown
+wts-lg-000146,4EEU387,LffI387,LFFI387,LFFI387,0.1902,False,False,False,False,False,True,state_format_unknown
+wts-lg-000147,8D79882,8079882,8079882,8079882,0.9422,False,False,False,False,False,True,state_format_unknown
+wts-lg-000148,6TIX874,LTIXBZL,LTIXBZL,LTIXBZL,0.4297,False,False,False,False,False,True,state_format_unknown
+wts-lg-000149,6MWF778,GMWEZze,GMWEZZE,GMWEZZE,0.0788,False,False,False,False,False,True,state_format_unknown
+wts-lg-000150,6WHS906,[6whs906,6WHS906,6WHS906,0.3925,False,False,True,True,True,True,state_format_unknown
+wts-lg-000151,5RIN962,SRiN962,SRIN962,SRIN962,0.3962,False,False,False,False,False,True,state_format_unknown
+wts-lg-000152,6UNP953,GUNP953],GUNP953,GUNP953,0.7526,False,False,False,False,False,True,state_format_unknown
+wts-lg-000154,1366026,1366026,1366026,1366026,0.7769,False,True,True,True,True,True,state_format_unknown
+wts-lg-000155,CYZ5139,TEXAS CYZ-5139 FEEREd,CYZ5139FEERED,CYZ5139,0.5548,True,False,True,False,True,False,state_format_matched_TEXAS_LLLDDDD_penalty_0
+wts-lg-000156,5TZA419,5TZAL19,5TZAL19,5TZAL19,0.6582,False,False,False,False,False,True,state_format_unknown
+wts-lg-000157,7EAV033,ZFAV033,ZFAV033,ZFAV033,0.316,False,False,False,False,False,True,state_format_unknown
+wts-lg-000158,CWM2998,TEXAS CHH-2998,CHH2998,CHH2998,0.9551,False,False,False,False,False,False,already_matched_TEXAS
+wts-lg-000159,59E21P1,59321P1,59321P1,59321P1,0.865,False,False,False,False,False,True,state_format_unknown
+wts-lg-000160,8S16841,8516841,8516841,8516841,0.9904,False,False,False,False,False,True,state_format_unknown
+wts-lg-000161,75061H1,[6x 75061h1|,6X75061H1,6X75061H1,0.2571,False,False,False,False,False,True,state_format_unknown
+wts-lg-000162,CN2X798,TEXHS CN2+K798,TEXHSCN2K798,TEXHSCN2K798,0.4037,False,False,False,False,False,True,state_format_unknown
+wts-lg-000163,CDK575,CpK 575|,CPK575,CPK575,0.1562,False,False,False,False,False,True,state_format_unknown
+wts-lg-000164,BSB0399,TEXAS BSB-0399,BSB0399,BSB0399,0.63,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000165,CGT2069,TEXAS CGT-2069,CGT2069,CGT2069,0.9854,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000166,4NZZ935,4Nzz935,4NZZ935,4NZZ935,0.622,False,False,True,True,True,True,state_format_unknown
+wts-lg-000167,7AWV401,7AwVLO1,7AWVLO1,7AWVLO1,0.4772,False,False,False,False,False,True,state_format_unknown
+wts-lg-000168,RZN384,RZN 384,RZN384,RZN384,0.7864,False,False,True,True,True,True,state_format_unknown
+wts-lg-000169,47366J1,L7366.J1,L7366J1,L7366J1,0.5892,False,False,False,False,False,True,state_format_unknown
+wts-lg-000170,5FLR236,EFLR2361,EFLR2361,EFLR2361,0.4384,False,False,False,False,False,True,state_format_unknown
+wts-lg-000171,DCK6344,TEXAS DCK-6344,DCK6344,DCK6344,0.8528,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000172,8P62983,BP62983,BP62983,BP62983,0.5579,False,False,False,False,False,True,state_format_unknown
+wts-lg-000173,5FEE732,SFEE7321,SFEE7321,SFEE7321,0.3186,False,False,False,False,False,True,state_format_unknown
+wts-lg-000174,5BDE732,SBDE7321,SBDE7321,SBDE7321,0.6215,False,False,False,False,False,True,state_format_unknown
+wts-lg-000175,CWL9084,TEXAS CWL-9084,CWL9084,CWL9084,0.7382,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000176,BTZ7148,TEXAS BTZ:7148,BTZ7148,BTZ7148,0.4733,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000177,6ZWF846,6ZWF846,6ZWF846,6ZWF846,0.7428,False,True,True,True,True,True,state_format_unknown
+wts-lg-000178,6LSU216,GL.SU216,GLSU216,GLSU216,0.4703,False,False,False,False,False,True,state_format_unknown
+wts-lg-000179,SL7J8R,(SL7 JBR',SL7JBR,SL7JBR,0.1819,False,False,False,False,False,True,state_format_unknown
+wts-lg-000181,PH5M9Y,Pis N9Y,PISN9Y,PISN9Y,0.4992,False,False,False,False,False,True,state_format_unknown
+wts-lg-000183,DK8F5L,Fke f5L,FKEF5L,FKEF5L,0.1111,False,False,False,False,False,True,state_format_unknown
+wts-lg-000186,AG0R6T,nGO Ret,NGORET,NGORET,0.2017,False,False,False,False,False,True,state_format_unknown
+wts-lg-000187,UJ5E1A,UJS ELA,UJSELA,UJSELA,0.1446,False,False,False,False,False,True,state_format_unknown
+wts-lg-000188,UJ3V0J,,,,0.0,False,False,False,False,False,True,state_format_unknown
+wts-lg-000189,FK4W3L,Dm,DM,DM,0.0417,False,False,False,False,False,True,state_format_unknown
+wts-lg-000190,6RYJ486,GRYJLB6,GRYJLB6,GRYJLB6,0.8088,False,False,False,False,False,True,state_format_unknown
+wts-lg-000191,CDL4461,TEXAS CDL+4461,CDL4461,CDL4461,0.8079,False,False,True,True,True,False,already_matched_TEXAS
+wts-lg-000192,5NWV468,SNNVLge,SNNVLGE,SNNVLGE,0.1008,False,False,False,False,False,True,state_format_unknown
+wts-lg-000193,RZN384,RZN 384,RZN384,RZN384,0.6395,False,False,True,True,True,True,state_format_unknown
+wts-lg-000194,7CID930,7CID930,7CID930,7CID930,0.4174,False,True,True,True,True,True,state_format_unknown
+wts-lg-000195,8D79882,8D79882},8D79882,8D79882,0.3199,False,False,True,True,True,True,state_format_unknown
+wts-lg-000196,DH7X317,TEXAS DHZ+K317],DHZK317,DHZK317,0.1987,False,False,False,False,False,True,no_valid_candidate_for_TEXAS
+wts-lg-000197,2MFZ746,ZHFZ7L6,ZHFZ7L6,ZHFZ7L6,0.8043,False,False,False,False,False,True,state_format_unknown
+wts-lg-000199,J868321,LBs PL,LBSPL,LBSPL,0.113,False,False,False,False,False,True,state_format_unknown

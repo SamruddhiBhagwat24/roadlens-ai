@@ -1,0 +1,154 @@
+{
+  "total_samples": 222,
+  "exact_matches_before": 5,
+  "exact_accuracy_before_pct": 2.25,
+  "exact_matches_after": 34,
+  "exact_accuracy_after_pct": 15.32,
+  "normalized_matches_before": 30,
+  "normalized_accuracy_before_pct": 13.51,
+  "normalized_matches_after": 34,
+  "normalized_accuracy_after_pct": 15.32,
+  "predictions_changed": 4,
+  "changes_improved_correctness": 4,
+  "changes_degraded_correctness": 0,
+  "unchanged_correct_predictions": 30,
+  "ambiguous_predictions": 208,
+  "target_confusions": {
+    "6->G": {
+      "before": 20,
+      "after": 20,
+      "delta": 0
+    },
+    "G->6": {
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    },
+    "5->S": {
+      "before": 18,
+      "after": 18,
+      "delta": 0
+    },
+    "S->5": {
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    },
+    "0->O": {
+      "before": 15,
+      "after": 15,
+      "delta": 0
+    },
+    "O->0": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "8->B": {
+      "before": 12,
+      "after": 12,
+      "delta": 0
+    },
+    "B->8": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "2->Z": {
+      "before": 8,
+      "after": 8,
+      "delta": 0
+    },
+    "Z->2": {
+      "before": 1,
+      "after": 1,
+      "delta": 0
+    },
+    "1->I": {
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    },
+    "I->1": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "4->L": {
+      "before": 15,
+      "after": 15,
+      "delta": 0
+    },
+    "7->Z": {
+      "before": 10,
+      "after": 10,
+      "delta": 0
+    }
+  },
+  "changed_samples": [
+    {
+      "image_id": "us10",
+      "ground_truth": "CC2881",
+      "original_ocr": "WASHINGTON; DC CC= 2881 TAXATION WIthout REPRESENTATION",
+      "normalized_ocr": "DCCC2881TAXATIONWITHOUTREPRESENTATION",
+      "constrained_prediction": "CC2881",
+      "confidence": 0.6838,
+      "detected_state": "WASHINGTON",
+      "changed": true,
+      "exact_match_before": false,
+      "exact_match_after": true,
+      "normalized_match_before": false,
+      "normalized_match_after": true,
+      "is_ambiguous": false,
+      "correction_reason": "state_format_matched_WASHINGTON_LLDDDD_penalty_0"
+    },
+    {
+      "image_id": "us8",
+      "ground_truth": "EAZ6913",
+      "original_ocr": "NEW YORK EAZ-6913 THE EMPIRE STATE",
+      "normalized_ocr": "EAZ6913THEEMPIRESTATE",
+      "constrained_prediction": "EAZ6913",
+      "confidence": 0.7766,
+      "detected_state": "NEW YORK",
+      "changed": true,
+      "exact_match_before": false,
+      "exact_match_after": true,
+      "normalized_match_before": false,
+      "normalized_match_after": true,
+      "is_ambiguous": false,
+      "correction_reason": "state_format_matched_NEW YORK_LLLDDDD_penalty_0"
+    },
+    {
+      "image_id": "wts-lg-000136",
+      "ground_truth": "CYZ5139",
+      "original_ocr": "TEXAS CYZ-5139 DGaleA SALES",
+      "normalized_ocr": "CYZ5139DGALEASALES",
+      "constrained_prediction": "CYZ5139",
+      "confidence": 0.6689,
+      "detected_state": "TEXAS",
+      "changed": true,
+      "exact_match_before": false,
+      "exact_match_after": true,
+      "normalized_match_before": false,
+      "normalized_match_after": true,
+      "is_ambiguous": false,
+      "correction_reason": "state_format_matched_TEXAS_LLLDDDD_penalty_0"
+    },
+    {
+      "image_id": "wts-lg-000155",
+      "ground_truth": "CYZ5139",
+      "original_ocr": "TEXAS CYZ-5139 FEEREd",
+      "normalized_ocr": "CYZ5139FEERED",
+      "constrained_prediction": "CYZ5139",
+      "confidence": 0.5548,
+      "detected_state": "TEXAS",
+      "changed": true,
+      "exact_match_before": false,
+      "exact_match_after": true,
+      "normalized_match_before": false,
+      "normalized_match_after": true,
+      "is_ambiguous": false,
+      "correction_reason": "state_format_matched_TEXAS_LLLDDDD_penalty_0"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "metadata": {
+    "benchmark": "OpenALPR US Full Benchmark (222 Samples)",
+    "date": "September 2026",
+    "total_samples": 222,
+    "hardware": "Apple M-series CPU (Offline Execution)",
+    "ocr_engine": "EasyOCR 1.7.2 (craft_mlt_25k.pth + english_g2.pth)",
+    "duration_seconds": 22.31
+  },
+  "raw_overall": {
+    "sample_count": 222,
+    "exact_matches": 5,
+    "exact_match_accuracy_pct": 2.25,
+    "normalized_matches": 30,
+    "normalized_match_accuracy_pct": 13.51,
+    "mean_confidence": 0.3531,
+    "median_latency_ms": 35.98,
+    "mean_latency_ms": 46.75,
+    "min_latency_ms": 12.36,
+    "max_latency_ms": 254.54
+  },
+  "adaptive_overall": {
+    "sample_count": 222,
+    "exact_matches": 5,
+    "exact_match_accuracy_pct": 2.25,
+    "normalized_matches": 30,
+    "normalized_match_accuracy_pct": 13.51,
+    "mean_confidence": 0.3596,
+    "median_latency_ms": 38.96,
+    "mean_latency_ms": 49.24,
+    "min_latency_ms": 23.09,
+    "max_latency_ms": 242.78
+  },
+  "bucket_analysis": {
+    "<24 px": {
+      "raw": {
+        "sample_count": 0,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 0,
+        "normalized_match_accuracy_pct": 0.0,
+        "mean_confidence": 0.0,
+        "median_latency_ms": 0.0,
+        "mean_latency_ms": 0.0,
+        "min_latency_ms": 0.0,
+        "max_latency_ms": 0.0
+      },
+      "adaptive": {
+        "sample_count": 0,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 0,
+        "normalized_match_accuracy_pct": 0.0,
+        "mean_confidence": 0.0,
+        "median_latency_ms": 0.0,
+        "mean_latency_ms": 0.0,
+        "min_latency_ms": 0.0,
+        "max_latency_ms": 0.0
+      }
+    },
+    "24-31 px": {
+      "raw": {
+        "sample_count": 26,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 1,
+        "normalized_match_accuracy_pct": 3.85,
+        "mean_confidence": 0.2294,
+        "median_latency_ms": 23.62,
+        "mean_latency_ms": 22.86,
+        "min_latency_ms": 12.36,
+        "max_latency_ms": 36.16
+      },
+      "adaptive": {
+        "sample_count": 26,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 2,
+        "normalized_match_accuracy_pct": 7.69,
+        "mean_confidence": 0.2682,
+        "median_latency_ms": 38.24,
+        "mean_latency_ms": 39.82,
+        "min_latency_ms": 29.15,
+        "max_latency_ms": 54.35
+      }
+    },
+    "32-35 px": {
+      "raw": {
+        "sample_count": 14,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 2,
+        "normalized_match_accuracy_pct": 14.29,
+        "mean_confidence": 0.2885,
+        "median_latency_ms": 34.42,
+        "mean_latency_ms": 36.03,
+        "min_latency_ms": 12.56,
+        "max_latency_ms": 48.85
+      },
+      "adaptive": {
+        "sample_count": 14,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 1,
+        "normalized_match_accuracy_pct": 7.14,
+        "mean_confidence": 0.3189,
+        "median_latency_ms": 55.97,
+        "mean_latency_ms": 56.67,
+        "min_latency_ms": 42.01,
+        "max_latency_ms": 66.21
+      }
+    },
+    "36-49 px": {
+      "raw": {
+        "sample_count": 115,
+        "exact_matches": 5,
+        "exact_match_accuracy_pct": 4.35,
+        "normalized_matches": 15,
+        "normalized_match_accuracy_pct": 13.04,
+        "mean_confidence": 0.3385,
+        "median_latency_ms": 35.12,
+        "mean_latency_ms": 37.17,
+        "min_latency_ms": 22.52,
+        "max_latency_ms": 69.2
+      },
+      "adaptive": {
+        "sample_count": 115,
+        "exact_matches": 5,
+        "exact_match_accuracy_pct": 4.35,
+        "normalized_matches": 15,
+        "normalized_match_accuracy_pct": 13.04,
+        "mean_confidence": 0.3385,
+        "median_latency_ms": 35.03,
+        "mean_latency_ms": 36.25,
+        "min_latency_ms": 23.09,
+        "max_latency_ms": 62.69
+      }
+    },
+    ">=50 px": {
+      "raw": {
+        "sample_count": 67,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 12,
+        "normalized_match_accuracy_pct": 17.91,
+        "mean_confidence": 0.4397,
+        "median_latency_ms": 64.33,
+        "mean_latency_ms": 74.7,
+        "min_latency_ms": 34.85,
+        "max_latency_ms": 254.54
+      },
+      "adaptive": {
+        "sample_count": 67,
+        "exact_matches": 0,
+        "exact_match_accuracy_pct": 0.0,
+        "normalized_matches": 12,
+        "normalized_match_accuracy_pct": 17.91,
+        "mean_confidence": 0.4397,
+        "median_latency_ms": 62.65,
+        "mean_latency_ms": 73.66,
+        "min_latency_ms": 34.99,
+        "max_latency_ms": 242.78
+      }
+    }
+  },
+  "raw_top_confusions": [
+    [
+      "6->G",
+      20
+    ],
+    [
+      "5->S",
+      18
+    ],
+    [
+      "0->O",
+      15
+    ],
+    [
+      "4->L",
+      15
+    ],
+    [
+      "8->B",
+      12
+    ],
+    [
+      "7->Z",
+      10
+    ],
+    [
+      "8->E",
+      10
+    ],
+    [
+      "2->Z",
+      8
+    ],
+    [
+      "1->I",
+      7
+    ],
+    [
+      "F->E",
+      7
+    ],
+    [
+      "1->L",
+      7
+    ],
+    [
+      "M->H",
+      7
+    ],
+    [
+      "6->E",
+      6
+    ],
+    [
+      "4->A",
+      5
+    ],
+    [
+      "W->H",
+      5
+    ],
+    [
+      "G->6",
+      4
+    ],
+    [
+      "S->5",
+      4
+    ],
+    [
+      "X->K",
+      4
+    ],
+    [
+      "U->V",
+      3
+    ],
+    [
+      "0->I",
+      3
+    ],
+    [
+      "W->N",
+      3
+    ],
+    [
+      "D->0",
+      3
+    ],
+    [
+      "E->F",
+      3
+    ],
+    [
+      "7->T",
+      2
+    ],
+    [
+      "2->E",
+      2
+    ]
+  ],
+  "adaptive_top_confusions": [
+    [
+      "6->G",
+      19
+    ],
+    [
+      "5->S",
+      18
+    ],
+    [
+      "0->O",
+      17
+    ],
+    [
+      "4->L",
+      15
+    ],
+    [
+      "7->Z",
+      10
+    ],
+    [
+      "8->B",
+      10
+    ],
+    [
+      "8->E",
+      9
+    ],
+    [
+      "2->Z",
+      8
+    ],
+    [
+      "1->I",
+      8
+    ],
+    [
+      "M->H",
+      7
+    ],
+    [
+      "1->L",
+      6
+    ],
+    [
+      "4->A",
+      6
+    ],
+    [
+      "W->H",
+      6
+    ],
+    [
+      "6->E",
+      5
+    ],
+    [
+      "G->6",
+      4
+    ],
+    [
+      "F->E",
+      4
+    ],
+    [
+      "S->5",
+      3
+    ],
+    [
+      "W->N",
+      3
+    ],
+    [
+      "D->0",
+      3
+    ],
+    [
+      "X->K",
+      3
+    ],
+    [
+      "8->0",
+      3
+    ],
+    [
+      "T->I",
+      3
+    ],
+    [
+      "E->F",
+      3
+    ],
+    [
+      "Z->2",
+      2
+    ],
+    [
+      "U->V",
+      2
+    ]
+  ],
+  "target_confusions_raw": {
+    "S->5": 4,
+    "5->S": 18,
+    "G->6": 4,
+    "6->G": 20,
+    "8->B": 12,
+    "0->O": 15,
+    "1->I": 7,
+    "Z->2": 1,
+    "2->Z": 8
+  },
+  "target_confusions_adaptive": {
+    "S->5": 3,
+    "5->S": 18,
+    "G->6": 4,
+    "6->G": 19,
+    "8->B": 10,
+    "0->O": 17,
+    "1->I": 8,
+    "Z->2": 2,
+    "2->Z": 8
+  }
+}

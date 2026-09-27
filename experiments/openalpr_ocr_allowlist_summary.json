@@ -1,0 +1,78 @@
+{
+  "total_samples": 222,
+  "raw_exact_match_count": 5,
+  "raw_exact_match_accuracy_pct": 2.25,
+  "allowlist_exact_match_count": 15,
+  "allowlist_exact_match_accuracy_pct": 6.76,
+  "raw_normalized_match_count": 30,
+  "raw_normalized_match_accuracy_pct": 13.51,
+  "allowlist_normalized_match_count": 18,
+  "allowlist_normalized_match_accuracy_pct": 8.11,
+  "raw_mean_confidence": 0.3531,
+  "allowlist_mean_confidence": 0.4575,
+  "raw_mean_latency_ms": 47.38,
+  "raw_median_latency_ms": 36.7,
+  "allowlist_mean_latency_ms": 45.9,
+  "allowlist_median_latency_ms": 35.89,
+  "predictions_changed_count": 167,
+  "normalized_changed_count": 111,
+  "predictions_improved_count": 3,
+  "predictions_degraded_count": 15,
+  "predictions_unchanged_count": 204,
+  "character_error_breakdown": {
+    "raw_lowercase_count": 259,
+    "allowlist_lowercase_count": 0,
+    "raw_hyphen_count": 22,
+    "allowlist_hyphen_count": 0,
+    "raw_space_count": 125,
+    "allowlist_space_count": 45,
+    "raw_punctuation_symbol_count": 90,
+    "allowlist_punctuation_symbol_count": 0
+  },
+  "target_confusions": {
+    "6_to_G": {
+      "raw": 20,
+      "allowlist": 21
+    },
+    "G_to_6": {
+      "raw": 4,
+      "allowlist": 4
+    },
+    "5_to_S": {
+      "raw": 18,
+      "allowlist": 12
+    },
+    "S_to_5": {
+      "raw": 4,
+      "allowlist": 4
+    },
+    "0_to_O": {
+      "raw": 15,
+      "allowlist": 13
+    },
+    "O_to_0": {
+      "raw": 0,
+      "allowlist": 0
+    },
+    "8_to_B": {
+      "raw": 12,
+      "allowlist": 11
+    },
+    "B_to_8": {
+      "raw": 0,
+      "allowlist": 0
+    },
+    "4_to_L_A": {
+      "raw": 20,
+      "allowlist": 18
+    },
+    "2_to_Z": {
+      "raw": 8,
+      "allowlist": 6
+    },
+    "Z_to_2": {
+      "raw": 1,
+      "allowlist": 2
+    }
+  }
+}

@@ -1,0 +1,834 @@
+{
+  "metadata": {
+    "experiment": "Phase B Step 3B Controlled OCR Preprocessing Experiment",
+    "date": "September 2026",
+    "samples_count": 5,
+    "variants_count": 7,
+    "total_evaluations": 35,
+    "hardware": "Apple M-series CPU fallback (Zero AMD GPU/ROCm claimed)",
+    "ocr_engine": "EasyOCR 1.7.2 (local models craft_mlt_25k.pth + english_g2.pth)"
+  },
+  "variant_aggregates": {
+    "ORIGINAL": {
+      "variant": "ORIGINAL",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 1,
+      "normalized_accuracy_pct": 20.0,
+      "mean_prep_latency_ms": 0.002,
+      "mean_ocr_latency_ms": 27.38,
+      "mean_total_latency_ms": 27.38,
+      "mean_confidence": 0.3742
+    },
+    "UPSCALE_2X": {
+      "variant": "UPSCALE_2X",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 1,
+      "normalized_accuracy_pct": 20.0,
+      "mean_prep_latency_ms": 0.046,
+      "mean_ocr_latency_ms": 52.86,
+      "mean_total_latency_ms": 52.91,
+      "mean_confidence": 0.2843
+    },
+    "UPSCALE_3X": {
+      "variant": "UPSCALE_3X",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 0,
+      "normalized_accuracy_pct": 0.0,
+      "mean_prep_latency_ms": 0.074,
+      "mean_ocr_latency_ms": 83.65,
+      "mean_total_latency_ms": 83.72,
+      "mean_confidence": 0.279
+    },
+    "GRAYSCALE_CONTRAST": {
+      "variant": "GRAYSCALE_CONTRAST",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 1,
+      "normalized_accuracy_pct": 20.0,
+      "mean_prep_latency_ms": 0.058,
+      "mean_ocr_latency_ms": 48.67,
+      "mean_total_latency_ms": 48.72,
+      "mean_confidence": 0.3218
+    },
+    "SHARPEN": {
+      "variant": "SHARPEN",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 1,
+      "normalized_accuracy_pct": 20.0,
+      "mean_prep_latency_ms": 0.174,
+      "mean_ocr_latency_ms": 49.28,
+      "mean_total_latency_ms": 49.46,
+      "mean_confidence": 0.3959
+    },
+    "DENOISE_SHARPEN": {
+      "variant": "DENOISE_SHARPEN",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 1,
+      "normalized_accuracy_pct": 20.0,
+      "mean_prep_latency_ms": 0.309,
+      "mean_ocr_latency_ms": 49.67,
+      "mean_total_latency_ms": 49.98,
+      "mean_confidence": 0.3455
+    },
+    "CLAHE": {
+      "variant": "CLAHE",
+      "samples_evaluated": 5,
+      "exact_matches": 0,
+      "exact_accuracy_pct": 0.0,
+      "normalized_matches": 1,
+      "normalized_accuracy_pct": 20.0,
+      "mean_prep_latency_ms": 0.12,
+      "mean_ocr_latency_ms": 49.18,
+      "mean_total_latency_ms": 49.3,
+      "mean_confidence": 0.2316
+    }
+  },
+  "evaluations": [
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "ORIGINAL",
+      "input_resolution": "99x49",
+      "raw_ocr_text": "YG9-X2G",
+      "normalized_ocr_text": "YG9X2G",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.6498,
+      "prep_latency_ms": 0.003,
+      "inference_latency_ms": 46.16,
+      "total_latency_ms": 46.17,
+      "exact_match": false,
+      "normalized_match": true,
+      "tokens": [
+        {
+          "token": "YG9-X2G",
+          "conf": 0.6498
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "UPSCALE_2X",
+      "input_resolution": "198x98",
+      "raw_ocr_text": "YG9-X2G",
+      "normalized_ocr_text": "YG9X2G",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.7097,
+      "prep_latency_ms": 0.085,
+      "inference_latency_ms": 94.65,
+      "total_latency_ms": 94.73,
+      "exact_match": false,
+      "normalized_match": true,
+      "tokens": [
+        {
+          "token": "YG9-X2G",
+          "conf": 0.7097
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "UPSCALE_3X",
+      "input_resolution": "297x147",
+      "raw_ocr_text": "YG9-X26",
+      "normalized_ocr_text": "YG9X26",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.545,
+      "prep_latency_ms": 0.135,
+      "inference_latency_ms": 147.54,
+      "total_latency_ms": 147.67,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "YG9-X26",
+          "conf": 0.545
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "GRAYSCALE_CONTRAST",
+      "input_resolution": "198x98",
+      "raw_ocr_text": "YG9-X2G",
+      "normalized_ocr_text": "YG9X2G",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.4674,
+      "prep_latency_ms": 0.095,
+      "inference_latency_ms": 89.29,
+      "total_latency_ms": 89.38,
+      "exact_match": false,
+      "normalized_match": true,
+      "tokens": [
+        {
+          "token": "YG9-X2G",
+          "conf": 0.4674
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "SHARPEN",
+      "input_resolution": "198x98",
+      "raw_ocr_text": "YG9-X2G",
+      "normalized_ocr_text": "YG9X2G",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.7467,
+      "prep_latency_ms": 0.243,
+      "inference_latency_ms": 88.03,
+      "total_latency_ms": 88.27,
+      "exact_match": false,
+      "normalized_match": true,
+      "tokens": [
+        {
+          "token": "YG9-X2G",
+          "conf": 0.7467
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "DENOISE_SHARPEN",
+      "input_resolution": "198x98",
+      "raw_ocr_text": "YG9-X2g",
+      "normalized_ocr_text": "YG9X2G",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.36,
+      "prep_latency_ms": 0.475,
+      "inference_latency_ms": 88.82,
+      "total_latency_ms": 89.29,
+      "exact_match": false,
+      "normalized_match": true,
+      "tokens": [
+        {
+          "token": "YG9-X2g",
+          "conf": 0.36
+        }
+      ]
+    },
+    {
+      "sample_index": 1,
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "variant": "CLAHE",
+      "input_resolution": "198x98",
+      "raw_ocr_text": "YG9-X2G",
+      "normalized_ocr_text": "YG9X2G",
+      "ground_truth_text": "YG9X2G",
+      "confidence": 0.3948,
+      "prep_latency_ms": 0.183,
+      "inference_latency_ms": 89.17,
+      "total_latency_ms": 89.35,
+      "exact_match": false,
+      "normalized_match": true,
+      "tokens": [
+        {
+          "token": "YG9-X2G",
+          "conf": 0.3948
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "ORIGINAL",
+      "input_resolution": "62x31",
+      "raw_ocr_text": "056*719",
+      "normalized_ocr_text": "056719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.3445,
+      "prep_latency_ms": 0.001,
+      "inference_latency_ms": 24.38,
+      "total_latency_ms": 24.38,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "056*719",
+          "conf": 0.3445
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "UPSCALE_2X",
+      "input_resolution": "124x62",
+      "raw_ocr_text": "056 719",
+      "normalized_ocr_text": "056719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.281,
+      "prep_latency_ms": 0.038,
+      "inference_latency_ms": 44.52,
+      "total_latency_ms": 44.56,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "056 719",
+          "conf": 0.281
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "UPSCALE_3X",
+      "input_resolution": "186x93",
+      "raw_ocr_text": "056+719",
+      "normalized_ocr_text": "056719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.2724,
+      "prep_latency_ms": 0.068,
+      "inference_latency_ms": 63.4,
+      "total_latency_ms": 63.47,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "056+719",
+          "conf": 0.2724
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "GRAYSCALE_CONTRAST",
+      "input_resolution": "124x62",
+      "raw_ocr_text": "056 719",
+      "normalized_ocr_text": "056719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.4259,
+      "prep_latency_ms": 0.045,
+      "inference_latency_ms": 37.85,
+      "total_latency_ms": 37.9,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "056 719",
+          "conf": 0.4259
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "SHARPEN",
+      "input_resolution": "124x62",
+      "raw_ocr_text": "056 719",
+      "normalized_ocr_text": "056719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.2673,
+      "prep_latency_ms": 0.157,
+      "inference_latency_ms": 39.03,
+      "total_latency_ms": 39.19,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "056 719",
+          "conf": 0.2673
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "DENOISE_SHARPEN",
+      "input_resolution": "124x62",
+      "raw_ocr_text": "056+719",
+      "normalized_ocr_text": "056719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.3701,
+      "prep_latency_ms": 0.254,
+      "inference_latency_ms": 38.41,
+      "total_latency_ms": 38.67,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "056+719",
+          "conf": 0.3701
+        }
+      ]
+    },
+    {
+      "sample_index": 2,
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "variant": "CLAHE",
+      "input_resolution": "124x62",
+      "raw_ocr_text": "050 719",
+      "normalized_ocr_text": "050719",
+      "ground_truth_text": "0SG719",
+      "confidence": 0.1897,
+      "prep_latency_ms": 0.109,
+      "inference_latency_ms": 35.77,
+      "total_latency_ms": 35.88,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "050 719",
+          "conf": 0.1897
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "ORIGINAL",
+      "input_resolution": "63x31",
+      "raw_ocr_text": "CcLV <",
+      "normalized_ocr_text": "CCLV",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.1062,
+      "prep_latency_ms": 0.001,
+      "inference_latency_ms": 21.44,
+      "total_latency_ms": 21.44,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "CcLV <",
+          "conf": 0.1062
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "UPSCALE_2X",
+      "input_resolution": "126x62",
+      "raw_ocr_text": "CciVu 3",
+      "normalized_ocr_text": "CCIVU3",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.0865,
+      "prep_latency_ms": 0.038,
+      "inference_latency_ms": 43.52,
+      "total_latency_ms": 43.56,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "CciVu 3",
+          "conf": 0.0865
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "UPSCALE_3X",
+      "input_resolution": "189x93",
+      "raw_ocr_text": "(CcLv 3",
+      "normalized_ocr_text": "CCLV3",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.0794,
+      "prep_latency_ms": 0.06,
+      "inference_latency_ms": 74.21,
+      "total_latency_ms": 74.27,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "(CcLv 3",
+          "conf": 0.0794
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "GRAYSCALE_CONTRAST",
+      "input_resolution": "126x62",
+      "raw_ocr_text": "Ccivn-3",
+      "normalized_ocr_text": "CCIVN3",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.3422,
+      "prep_latency_ms": 0.045,
+      "inference_latency_ms": 34.61,
+      "total_latency_ms": 34.65,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "Ccivn-3",
+          "conf": 0.3422
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "SHARPEN",
+      "input_resolution": "126x62",
+      "raw_ocr_text": "CcLV-%",
+      "normalized_ocr_text": "CCLV",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.3623,
+      "prep_latency_ms": 0.152,
+      "inference_latency_ms": 38.04,
+      "total_latency_ms": 38.19,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "CcLV-%",
+          "conf": 0.3623
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "DENOISE_SHARPEN",
+      "input_resolution": "126x62",
+      "raw_ocr_text": "CciVM-3",
+      "normalized_ocr_text": "CCIVM3",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.149,
+      "prep_latency_ms": 0.254,
+      "inference_latency_ms": 35.0,
+      "total_latency_ms": 35.25,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "CciVM-3",
+          "conf": 0.149
+        }
+      ]
+    },
+    {
+      "sample_index": 3,
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "variant": "CLAHE",
+      "input_resolution": "126x62",
+      "raw_ocr_text": "(Ccivu 3",
+      "normalized_ocr_text": "CCIVU3",
+      "ground_truth_text": "CCLVN3",
+      "confidence": 0.072,
+      "prep_latency_ms": 0.098,
+      "inference_latency_ms": 43.82,
+      "total_latency_ms": 43.92,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "(Ccivu 3",
+          "conf": 0.072
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "ORIGINAL",
+      "input_resolution": "58x29",
+      "raw_ocr_text": "@daco44",
+      "normalized_ocr_text": "DACO44",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.2558,
+      "prep_latency_ms": 0.001,
+      "inference_latency_ms": 24.07,
+      "total_latency_ms": 24.08,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "@daco44",
+          "conf": 0.2558
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "UPSCALE_2X",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "@uagoia",
+      "normalized_ocr_text": "UAGOIA",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.0362,
+      "prep_latency_ms": 0.034,
+      "inference_latency_ms": 43.46,
+      "total_latency_ms": 43.49,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "@uagoia",
+          "conf": 0.0362
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "UPSCALE_3X",
+      "input_resolution": "174x87",
+      "raw_ocr_text": "F0a2044",
+      "normalized_ocr_text": "F0A2044",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.09,
+      "prep_latency_ms": 0.053,
+      "inference_latency_ms": 73.54,
+      "total_latency_ms": 73.59,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "F0a2044",
+          "conf": 0.09
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "GRAYSCALE_CONTRAST",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "@uagoia",
+      "normalized_ocr_text": "UAGOIA",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.0232,
+      "prep_latency_ms": 0.042,
+      "inference_latency_ms": 43.02,
+      "total_latency_ms": 43.06,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "@uagoia",
+          "conf": 0.0232
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "SHARPEN",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "@dnpo44",
+      "normalized_ocr_text": "DNPO44",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.0416,
+      "prep_latency_ms": 0.138,
+      "inference_latency_ms": 42.64,
+      "total_latency_ms": 42.78,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "@dnpo44",
+          "conf": 0.0416
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "DENOISE_SHARPEN",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "@uagoia",
+      "normalized_ocr_text": "UAGOIA",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.0825,
+      "prep_latency_ms": 0.27,
+      "inference_latency_ms": 48.27,
+      "total_latency_ms": 48.54,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "@uagoia",
+          "conf": 0.0825
+        }
+      ]
+    },
+    {
+      "sample_index": 4,
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "variant": "CLAHE",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "@un044",
+      "normalized_ocr_text": "UN044",
+      "ground_truth_text": "2DA044",
+      "confidence": 0.102,
+      "prep_latency_ms": 0.113,
+      "inference_latency_ms": 36.4,
+      "total_latency_ms": 36.51,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "@un044",
+          "conf": 0.102
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "ORIGINAL",
+      "input_resolution": "58x29",
+      "raw_ocr_text": "5L7 CGs",
+      "normalized_ocr_text": "5L7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.5147,
+      "prep_latency_ms": 0.004,
+      "inference_latency_ms": 20.83,
+      "total_latency_ms": 20.84,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "5L7 CGs",
+          "conf": 0.5147
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "UPSCALE_2X",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "SL7 CGS",
+      "normalized_ocr_text": "SL7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.3083,
+      "prep_latency_ms": 0.033,
+      "inference_latency_ms": 38.17,
+      "total_latency_ms": 38.2,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "SL7 CGS",
+          "conf": 0.3083
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "UPSCALE_3X",
+      "input_resolution": "174x87",
+      "raw_ocr_text": "SL7 CGs",
+      "normalized_ocr_text": "SL7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.4082,
+      "prep_latency_ms": 0.052,
+      "inference_latency_ms": 59.54,
+      "total_latency_ms": 59.59,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "SL7 CGs",
+          "conf": 0.4082
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "GRAYSCALE_CONTRAST",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "SL7 CGs",
+      "normalized_ocr_text": "SL7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.3501,
+      "prep_latency_ms": 0.063,
+      "inference_latency_ms": 38.56,
+      "total_latency_ms": 38.62,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "SL7 CGs",
+          "conf": 0.3501
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "SHARPEN",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "SL7 CGs",
+      "normalized_ocr_text": "SL7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.5618,
+      "prep_latency_ms": 0.178,
+      "inference_latency_ms": 38.68,
+      "total_latency_ms": 38.85,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "SL7 CGs",
+          "conf": 0.5618
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "DENOISE_SHARPEN",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "SL7 CGs",
+      "normalized_ocr_text": "SL7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.7658,
+      "prep_latency_ms": 0.292,
+      "inference_latency_ms": 37.83,
+      "total_latency_ms": 38.13,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "SL7 CGs",
+          "conf": 0.7658
+        }
+      ]
+    },
+    {
+      "sample_index": 5,
+      "image_id": "22e54a62-57a8-4a0a-88c1-4b9758f67651",
+      "variant": "CLAHE",
+      "input_resolution": "116x58",
+      "raw_ocr_text": "SL7 CGs",
+      "normalized_ocr_text": "SL7CGS",
+      "ground_truth_text": "SL7C6S",
+      "confidence": 0.3993,
+      "prep_latency_ms": 0.099,
+      "inference_latency_ms": 40.75,
+      "total_latency_ms": 40.85,
+      "exact_match": false,
+      "normalized_match": false,
+      "tokens": [
+        {
+          "token": "SL7 CGs",
+          "conf": 0.3993
+        }
+      ]
+    }
+  ]
+}

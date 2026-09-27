@@ -1,0 +1,126 @@
+{
+  "total_samples": 222,
+  "vehicle_detection": {
+    "images_with_vehicles": 219,
+    "vehicle_detection_rate_pct": 98.65,
+    "images_with_rois": 219,
+    "mean_candidate_rois_per_image": 1.64,
+    "mean_yolo_latency_ms": 78.34,
+    "mean_roi_latency_ms": 0.0081
+  },
+  "plate_localization_recall": {
+    "recall_iou_ge_025_count": 20,
+    "recall_iou_ge_025_pct": 9.01,
+    "recall_iou_ge_050_count": 3,
+    "recall_iou_ge_050_pct": 1.35,
+    "macro_bumper_coverage_ge_80pct_count": 144,
+    "macro_bumper_coverage_ge_80pct_pct": 64.86,
+    "mean_best_iou": 0.0645,
+    "median_best_iou": 0.0
+  },
+  "failure_categorization": {
+    "plate_outside_heuristic_roi": 37,
+    "multiple_vehicle_ambiguity": 38,
+    "candidate_roi_too_large": 124,
+    "success_iou_ge_025": 20,
+    "no_vehicle_detected": 3
+  },
+  "oracle_assisted_ocr_on_iou25": {
+    "evaluated_cases": 20,
+    "matched_cases": 0,
+    "accuracy_pct": 0.0,
+    "note": "Diagnostic only: candidate selection condition uses ground-truth IoU >= 0.25"
+  },
+  "diagnostic_samples": [
+    {
+      "image_id": "car16",
+      "category": "success_high_iou",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_car16_success_high_iou.jpg",
+      "gt_text": "002HHM",
+      "plate_iou": 0.3034,
+      "macro_containment": 1.0,
+      "failure_category": "success_iou_ge_025"
+    },
+    {
+      "image_id": "car5",
+      "category": "success_high_iou",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_car5_success_high_iou.jpg",
+      "gt_text": "59CADI",
+      "plate_iou": 0.3162,
+      "macro_containment": 1.0,
+      "failure_category": "success_iou_ge_025"
+    },
+    {
+      "image_id": "car8",
+      "category": "success_high_iou",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_car8_success_high_iou.jpg",
+      "gt_text": "FZRULZ",
+      "plate_iou": 0.5252,
+      "macro_containment": 1.0,
+      "failure_category": "success_iou_ge_025"
+    },
+    {
+      "image_id": "car19",
+      "category": "failure_no_vehicle",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_car19_failure_no_vehicle.jpg",
+      "gt_text": "378DXR",
+      "plate_iou": 0.0,
+      "macro_containment": 0.0,
+      "failure_category": "no_vehicle_detected"
+    },
+    {
+      "image_id": "us4",
+      "category": "failure_no_vehicle",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_us4_failure_no_vehicle.jpg",
+      "gt_text": "520MRK",
+      "plate_iou": 0.0,
+      "macro_containment": 0.0,
+      "failure_category": "no_vehicle_detected"
+    },
+    {
+      "image_id": "12c6cb72-3ea3-49e7-b381-e0cdfc5e8960",
+      "category": "failure_multi_vehicle",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_12c6cb72-3ea3-49e7-b381-e0cdfc5e8960_failure_multi_vehicle.jpg",
+      "gt_text": "0SG719",
+      "plate_iou": 0.0,
+      "macro_containment": 0.0,
+      "failure_category": "multiple_vehicle_ambiguity"
+    },
+    {
+      "image_id": "c9368c55-210d-456c-a5ef-c310e60039ec",
+      "category": "failure_multi_vehicle",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_c9368c55-210d-456c-a5ef-c310e60039ec_failure_multi_vehicle.jpg",
+      "gt_text": "UH1F0F",
+      "plate_iou": 0.0,
+      "macro_containment": 0.0,
+      "failure_category": "multiple_vehicle_ambiguity"
+    },
+    {
+      "image_id": "0b86cecf-67d1-4fc0-87c9-b36b0ee228bb",
+      "category": "failure_plate_outside",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_0b86cecf-67d1-4fc0-87c9-b36b0ee228bb_failure_plate_outside.jpg",
+      "gt_text": "YG9X2G",
+      "plate_iou": 0.0,
+      "macro_containment": 0.697,
+      "failure_category": "plate_outside_heuristic_roi"
+    },
+    {
+      "image_id": "21d8c31d-3deb-494b-9c63-c0223306fd82",
+      "category": "failure_plate_outside",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_21d8c31d-3deb-494b-9c63-c0223306fd82_failure_plate_outside.jpg",
+      "gt_text": "2DA044",
+      "plate_iou": 0.0,
+      "macro_containment": 0.0,
+      "failure_category": "plate_outside_heuristic_roi"
+    },
+    {
+      "image_id": "1e241dc8-8f18-4955-8988-03a0ab49f813",
+      "category": "failure_roi_too_large",
+      "path": "/Users/samruddhibhagwat/.gemini/antigravity/brain/1df9a502-dbac-4a70-b808-a3b56f9901d3/scratch/diagnostics/diag_1e241dc8-8f18-4955-8988-03a0ab49f813_failure_roi_too_large.jpg",
+      "gt_text": "CCLVN3",
+      "plate_iou": 0.0733,
+      "macro_containment": 1.0,
+      "failure_category": "candidate_roi_too_large"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "status": "COMPLETED",
+  "dataset_name": "RoadLens Signs YOLO (LISA subset)",
+  "source_directory": "/Users/samruddhibhagwat/roadlens-ai-local/datasets/lisa_signs",
+  "output_directory": "/Users/samruddhibhagwat/roadlens-ai-local/datasets/roadlens_signs_yolo",
+  "total_source_frames": 54756,
+  "usable_frames": 5410,
+  "train_frames": 3735,
+  "val_frames": 894,
+  "test_frames": 781,
+  "total_sequences": 423,
+  "train_sequences": 297,
+  "val_sequences": 63,
+  "test_sequences": 63,
+  "sequence_split_ratio": {
+    "train": 0.7021,
+    "val": 0.1489,
+    "test": 0.1489
+  },
+  "target_classes": {
+    "0": "SPEED_LIMIT_SIGN",
+    "1": "ADVISORY_SPEED",
+    "2": "STOP_SIGN",
+    "3": "WARNING_SIGN",
+    "4": "WORK_ZONE_SIGN"
+  },
+  "annotation_counts_per_class": {
+    "0 - SPEED_LIMIT_SIGN": 1376,
+    "1 - ADVISORY_SPEED": 0,
+    "2 - STOP_SIGN": 1821,
+    "3 - WARNING_SIGN": 2958,
+    "4 - WORK_ZONE_SIGN": 0
+  },
+  "split_class_distribution": {
+    "train": {
+      "0 - SPEED_LIMIT_SIGN": 1008,
+      "1 - ADVISORY_SPEED": 0,
+      "2 - STOP_SIGN": 1268,
+      "3 - WARNING_SIGN": 2015,
+      "4 - WORK_ZONE_SIGN": 0
+    },
+    "val": {
+      "0 - SPEED_LIMIT_SIGN": 216,
+      "1 - ADVISORY_SPEED": 0,
+      "2 - STOP_SIGN": 294,
+      "3 - WARNING_SIGN": 476,
+      "4 - WORK_ZONE_SIGN": 0
+    },
+    "test": {
+      "0 - SPEED_LIMIT_SIGN": 152,
+      "1 - ADVISORY_SPEED": 0,
+      "2 - STOP_SIGN": 259,
+      "3 - WARNING_SIGN": 467,
+      "4 - WORK_ZONE_SIGN": 0
+    }
+  },
+  "missing_classes": [
+    "1 - ADVISORY_SPEED",
+    "4 - WORK_ZONE_SIGN"
+  ],
+  "ignored_source_labels": {
+    "speedLimitUrdbl": 132,
+    "turnLeft": 32,
+    "slow": 34,
+    "rightLaneMustTurn": 77,
+    "laneEnds": 210,
+    "school": 133,
+    "rampSpeedAdvisory40": 3,
+    "rampSpeedAdvisory45": 29,
+    "curveRight": 50,
+    "truckSpeedLimit55": 60,
+    "thruMergeLeft": 5,
+    "stopAhead": 168,
+    "yield": 236,
+    "thruMergeRight": 7,
+    "dip": 35,
+    "schoolSpeedLimit25": 105,
+    "thruTrafficMergeLeft": 19,
+    "noRightTurn": 26,
+    "rampSpeedAdvisory35": 5,
+    "curveLeft": 37,
+    "rampSpeedAdvisory20": 11,
+    "noLeftTurn": 47,
+    "zoneAhead25": 21,
+    "zoneAhead45": 20,
+    "doNotEnter": 23,
+    "roundabout": 53,
+    "turnRight": 92,
+    "rampSpeedAdvisoryUrdbl": 3,
+    "rampSpeedAdvisory50": 16,
+    "doNotPass": 9,
+    "intersection": 2
+  },
+  "qa_results": {
+    "missing_image_files": 0,
+    "missing_image_samples": [],
+    "malformed_annotations": 0,
+    "swapped_coordinates": 0,
+    "out_of_bounds_boxes": 0,
+    "zero_area_boxes": 0,
+    "duplicate_image_assignments": 0,
+    "sequence_leakage_detected": false
+  },
+  "sequence_leakage_verified_zero": true
+}

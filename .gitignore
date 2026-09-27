@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE / OS
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+
+# Datasets
+datasets/
+
+# Temporary / generated files
+tmp/
+temp/
+*.tmp
+speed_training_samples.jpg
+
+# Large model artifacts
+*.pt
+*.pth
+*.onnx
+
+# Local uploads
+uploads/
+
+# Local/private test artifacts
+images (4).jpeg
+synthetic_usa_plates_pilot_1000_contact_sheet.jpg
+RoadLens_AI_Master_Project_Plan.docx
+backend/app/vision/ocr.py.bak
