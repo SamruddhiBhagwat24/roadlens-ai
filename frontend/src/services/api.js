@@ -2,8 +2,7 @@
  * RoadLens AI API Client Service
  */
 
-const API_BASE = '/api';
-
+const API_BASE = 'https://roadlens-ai-backend.onrender.com/api';
 export async function checkHealth() {
   try {
     const res = await fetch(`${API_BASE}/health`);
