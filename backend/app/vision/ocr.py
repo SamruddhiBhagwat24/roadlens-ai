@@ -145,12 +145,10 @@ class EasyOCREngine(BaseOCREngine):
         return "EasyOCR"
 
     def is_available(self) -> bool:
-        """Checks if both easyocr package and verified local model weights exist."""
+        """Checks whether the EasyOCR package is available; model weights may be downloaded at runtime."""
         try:
             import easyocr
-            craft_pth = os.path.join(self.model_storage_directory, "craft_mlt_25k.pth")
-            rec_pth = os.path.join(self.model_storage_directory, "english_g2.pth")
-            return os.path.exists(craft_pth) and os.path.exists(rec_pth)
+            return True
         except ImportError:
             return False
 
@@ -165,7 +163,7 @@ class EasyOCREngine(BaseOCREngine):
                 gpu=use_gpu,
                 model_storage_directory=self.model_storage_directory,
                 user_network_directory=self.model_storage_directory,
-                download_enabled=False,
+                download_enabled=True,
             )
         return self._reader
 
