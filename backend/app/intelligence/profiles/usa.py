@@ -242,6 +242,8 @@ class USAProfile(BaseCountryProfile):
         image_quality: Dict[str, Any],
     ) -> RoadIntelligenceDetails:
         """Synthesizes all localized entities under US MUTCD and Plate rules."""
+        # Ignore synthetic fallback tokens during semantic interpretation.
+        ocr_results = [r for r in ocr_results if r.text != "OCR_UNREADABLE"]
         all_states: List[Dict[str, Any]] = []
 
         primary_object: Optional[str] = None
