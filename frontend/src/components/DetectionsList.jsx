@@ -52,7 +52,7 @@ export default function DetectionsList({ detections = [], ocrResults = [] }) {
                 <div>
                   <span className="text-[9px] uppercase font-semibold text-slate-400 block">OCR Text</span>
                   <span className="text-xs font-mono font-bold text-emerald-400">
-                    "{ocrResults[idx].text}"
+                    "{ocrResults[idx].text === 'OCR_UNREADABLE' ? 'OCR Unreadable' : ocrResults[idx].text}"
                   </span>
                 </div>
                 <div className="border-l border-slate-800 pl-3">
@@ -70,7 +70,7 @@ export default function DetectionsList({ detections = [], ocrResults = [] }) {
         {ocrResults.slice(detections.length).map((ocr, i) => (
           <div key={`ocr-${i}`} className="bg-slate-950/50 border border-slate-800/80 rounded-xl p-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <span className="text-xs font-mono text-emerald-400 font-bold">"{ocr.text}"</span>
+              <span className="text-xs font-mono text-emerald-400 font-bold">"{ocr.text === 'OCR_UNREADABLE' ? 'OCR Unreadable' : ocr.text}"</span>
               <span className="text-[10px] text-slate-500 font-mono">[{ocr.bounding_box.join(', ')}]</span>
             </div>
             <span className="text-[10px] font-mono text-slate-400 bg-slate-900 px-2 py-0.5 rounded border border-slate-800">

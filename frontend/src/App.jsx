@@ -133,7 +133,7 @@ export default function App() {
             {/* Quick Context Card */}
             <div className="bg-slate-900/60 border border-slate-800 rounded-2xl p-4 text-xs text-slate-400 space-y-2">
               <p className="font-semibold text-slate-300 uppercase tracking-wider text-[10px]">
-                Mini Challenge 2 Targets
+                Mini Challenge 2 — USA Benchmark Targets
               </p>
               <ul className="list-disc list-inside space-y-1 text-slate-400">
                 <li>US License Plates (multi-state characters)</li>

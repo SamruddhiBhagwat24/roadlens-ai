@@ -120,7 +120,7 @@ class HeuristicContourOCREngine(BaseOCREngine):
             confidence = round(float(np.clip(0.40 + 0.35 * mean_solidity + 0.05 * min(char_count, 5), 0.40, 0.95)), 2)
 
             # Synthesize token representation reflecting character count detected
-            token_text = f"CHARS_{char_count}" if char_count > 1 else "CHAR_1"
+            token_text = "OCR_UNREADABLE"
 
             results.append(
                 OCRResultItem(
